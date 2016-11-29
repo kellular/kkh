@@ -1,0 +1,14 @@
+# Logging
+.jekyll-metadata
+.publish
+*.log
+commit-hook.sh
+
+# Build
+_site
+_styles/css
+
+# Dev Dependencies
+Gemfile.lock
+node_modules
+.bundle

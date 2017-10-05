@@ -4,6 +4,8 @@ title: IBM dashDB
 duration: March 2015—July 2016
 ---
 <div class="o-wrap" markdown="1">
+###### This was the first product team I joined at IBM. With this particular project, we failed to deliver value for the user and the business in the end. I chose to share this project because it was a humbling lesson in understanding business requirements versus user needs and aligning between disciplines across the team.
+~
 # IBM dashDB
 ### dashDB is a cloud data warehouse accessed from the web portal or the command line. At a high-level, dashDB is a place for companies to bring together all of their data and house it within one location so that they can run queries, extract information, and perform analytics.
 <hr>
@@ -59,7 +61,7 @@ My UX designer and I went through the load flow in the current product. At the t
 
 <div class="o-wrap" markdown="1">
 ## Proposing a new approach
-Based on our assumptions, we worked on a new user flow and experience.
+Based on our assumptions, we worked on a new user flow and experience. We presented the following concept to our offering manager and development team.
 
 ![dashDB Load Hub and credentials](../../images/dashdb-loadhub-creds.png)
 ###### Users would land on the Load Hub, where they can start a new load and/or view their current load jobs.
@@ -94,32 +96,31 @@ Recommendations:
 
 <div class="o-wrap" markdown="1">
 ## What went wrong
-largely designing in the dark
-- zero access to real users
-- hard to contact offering managers b/c low priority
-- terrible relationship with dev team due to history of the team
+#### We did not understand our user, their workflow, and their needs
+Zero access to dashDB users meant that our design concept was not solving for core user problems. We could not adequately communicate true pain points and how our design resolved them.
 
-## Things I learned
-**User insight is absolutely necessary**
+#### Lack of visibility into the business strategy
+Redesigning the dashDB front-end experience was a low priority for the business. Our design team did not have insight into the product strategy until much later when we learned that the top focus was performance and security. The greatest need for dashDB from design was to improve the current product interface, not focus so heavily on a future replacement.
 
+#### We designed in a vacuum
+We did not involve teammates, like offering management and development, early enough and frequently throughout our process. This led to naive design decisions and a concept that was not grounded in reality. 
+<hr>
+## What I learned
+#### User insight is absolutely necessary
+Product decisions should be driven by data and insights drawn from user research.
 
-**No product discipline should work in a silo**
-
+#### No product discipline should work in a silo
 Initially our design team worked separately from the wider team of offering management and engineering. This contributed to basic user flow inaccuracies and functionality that simply was not feasible.
 
-**Never assume you know more than someone else**
-
+#### Never assume you know more than someone else
 We were the newest people to join the dashDB team. Collectively we made the egotistic mistake of pitching new design concepts under the assumption that because we were designers that meant we understood what “good user experience” meant in this product context.
 
-**Scope is critical**
-
+#### Scope is critical
 dashDB Load is a massive section of the product. At the start of this project, we wanted to cover all load options but this proved to be too ambitious for the timeline.
 
-**On-boarding new teammates to the team/product is critical**
+#### Designers should understand the technical context
+dashDB was built on older technology, which greatly impacted how much of the front-end interface we could influence. There was a huge disconnect between our new design team and our established development team. A lot of our prototypes were grand ideas that were not feasible to build in the production code.
 
-I was one of the first designers to join the dashDB team, which was made up of people who had worked on the product for years. Joining a new team is hard, especially when much of the team is not co-located with you. Learning the domain space itself is another level of challenging and requires the support and time from experts on the team.
-
-
-- could not agree on target personas (disagreement between design research, offering management, sales, engineering)
-- too large of a scope and unproductive delegation of tasks (back end, front end)
+#### On-boarding new teammates to the team/product is vital
+I was one of the first designers to join the dashDB team, which was made up of people who had worked on the product for years. Joining a new team is hard, especially when much of the team is not co-located with you. Learning the domain space itself is another level of difficulty, and it requires the support and time from experts on the team.
 </div>

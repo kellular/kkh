@@ -114,6 +114,6 @@ Northstar was created with marketing pages in mind. This meant that some of the 
 
 ![Support CSS Github wiki](../../images/support-css-wiki.gif)
 *Github wiki page where I have been storing the components from the Sketch UI kit for the development team*
-
+<hr>
 ## What's next?
 </div>

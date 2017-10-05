@@ -38,7 +38,7 @@ h5 {
   // 16px
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h6 {
@@ -46,8 +46,17 @@ h6 {
   font-size: 0.875rem;
   line-height: 1.5;
   font-weight: 400;
+  font-style: italic;
 
   & + p {
+    margin-top: 1.5rem;
+  }
+
+  & + h4 {
+    margin-top: 1.5rem;
+  }
+
+  & + h5 {
     margin-top: 1.5rem;
   }
 }

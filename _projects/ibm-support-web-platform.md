@@ -70,24 +70,21 @@ In order to connect users to the right support agents, we tried to ensure that t
 ![Open a case](../../images/cases-open-blank.png)
 <hr>
 ### Products
-We are currently exploring the products area in Support. The two main objectives for users here are monitoring and managing products. Basically, users want a snapshot into the state of their company’s products and view into the type of support access they have with IBM. Users also want to easily browse our product catalog. Sometimes this could be because they do not see their company’s product listed in their table, or because they want to explore products their company might want to use.
+We are currently exploring the products area in Support. The two objectives for users here are monitoring and managing products. Users want a snapshot into the state of their company’s products and view into the type of support access they have with IBM. Users also want to easily browse our product catalog. Sometimes this could be because they do not see their company’s product listed in their table, or because they want to explore products their company might want to use.
 
 #### Monitor
-Users, like the system admin, need to make sure all products are registered and under warranty, and can anticipate potential problems to resolve them before they happen. The products listed in the table are ones that their company has purchased from IBM.
+![Products table](../../images/support-products-table.png)
+###### The products listed in the table are ones that their company has purchased from IBM. Users, like the system admin, need to make sure all products are registered and under warranty, and can anticipate potential problems to resolve them before they happen.
 
 #### Manage
-Managing products is split into two tasks: browsing the product catalog and adding a product to your table.
 
-**Browse the catalog**
-Across IBM, there are thousands of hardware, software, and cloud products. Over the years, many of these products have changed names or moved into different business units for a variety of reasons. Unsurprisingly, users have a hard time finding documentation and other product information.
+![Manage products](../../images/support-products-manage.png)
+###### The top section of this page shows the products that a user can access because their company has a contract with IBM. Most users will not directly work with all of these products, which is why they are not listed on the previous products table.
 
-There is a new internal initiative to round up all the business units to establish a unified taxonomy, categorizing products into a more logical manner. Our team is coordinating with that group to iterate on wireframes that use the proposed taxonomy within Support.
+![Add product ICN](../../images/support-products-icn.png)
+###### We do not yet have the capabilities in place to surface relevant product information based on the users account. Today, users need to manually add their company's IBM products using an IBM customer number. The long-term vision is to alleviate this step entirely.
 
-**Add products to the table**
-Today, users need to manually add their company’s IBM products to the aforementioned table. This is because we do not yet have all the capabilities in place to surface relevant information—like all of a company’s products—in a user’s Support environment. The long-term vision is to alleviate this step entirely.
-
-Currently we’re able to identify the correct product and version if the user has the right IBM customer number or knows the machine type information. Our team is working to make this portion of products much clearer and simpler by combining some of the steps in this process that are repetitive in the former Support platform.
-
+#### User flow
 ![Products wireframe GIF](../../images/support-products.gif)
 </div>
 
@@ -97,21 +94,19 @@ Currently we’re able to identify the correct product and version if the user h
 
 <div class="o-wrap" markdown="1">
 ## Platforms we work with
-**Salesforce**
-<br>
+### Salesforce
 IBM partnered with Salesforce to provide the back-end and front-end architecture. This partnership enables us to create a cohesive experience and interaction between customers and agents on a single platform.
 
-**IBM Northstar**
-<br>
+### IBM Northstar
 Northstar is the internal design system for all web pages launched IBM.com. IBM.com is the home for IBM Support, which meant that prior to the Salesforce partnership, we were required to use the Northstar patterns and components.
 
-**Our design system**
-<br>
+### Our design system
 Northstar was created with marketing pages in mind. This meant that some of the design system patterns and components fell short for product design. Our previous front-end developer and I pitched the idea to our executives to forgo Northstar in favor of the Salesforce Lightning Design System (SLDS). In practice, what that has led to is our team using SLDS to provide the structure for components and base styles, such as spacing units and type scale. However, in order to align with the IBM brand, we style SLDS with IBM colors, icons, and IBM's new font family, Plex.
 
 ![Support Sketch UI kit](../../images/support-sketch-kit.png)
 *A snippet of the Sketch UI kit I created for our design team to share and re-use components, styles, and patterns*
-
+<br>
+<br>
 ![Support CSS Github wiki](../../images/support-css-wiki.gif)
 *Github wiki page where I have been storing the components from the Sketch UI kit for the development team*
 <hr>

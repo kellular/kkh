@@ -68,5 +68,3 @@ Case details contains additional information about the case. It includes all of 
 {% endcapture %}
 
 {% include background-alt.md %}
-
-<div class="o-wrap" markdown="1">

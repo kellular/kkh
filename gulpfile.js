@@ -41,6 +41,7 @@ gulp.task('default', ['serve']);
 // Build once with only _config.yml for production
 gulp.task('production-build', shell.task(['bundle exec jekyll build --config _config.yml']));
 
+// Compile SCSS for production
 gulp.task('sass-production', ['production-build'], function() {
   return gulp.src('_styles/scss/style.scss')
   .pipe(sass())

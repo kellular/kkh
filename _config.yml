@@ -1,6 +1,6 @@
 # Site Config
-name: "kkh"
-description: Kelli is shiny
+name: "Kelli Ho"
+description: Product designer at IBM
 baseurl: "/kkh"
 url: https://kellular.github.io/kkh
 
@@ -15,5 +15,6 @@ exclude: ["node_modules", "gulpfile.js", "Gemfile", "Gemfile.lock", ".jekyll-met
 
 # Read and Output Collections
 collections:
-  commands:
-    output: false
+  projects:
+    output: true
+    permalink: projects/:path/

@@ -23,14 +23,16 @@ ul, ol {
     padding-left: 1rem;
 }
 
-p, table {
-    margin-bottom: 1rem;
-}
-
 table {
     border-collapse: collapse;
 }
 
 a {
     color: $gray-dark;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid $gray-light;
 }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang=en>
+	<meta charset="utf-8"/>
+	<title>Kelli Ho - IBM Support Mobile Application</title>
+	<meta name="viewport" content="initial-scale=1" />
+	<meta name="p:domain_verify" content="73bb9724cf18cc4f5f5d8e8553eeb2ff"/>
+
+	<meta property="og:title" content="IBM Support Mobile Application"/>
+	<meta property="og:site_name" content="Kelli Ho"/>
+	<meta property="og:description" content="Product designer at IBM"/>
+	<meta property="og:url" content="/projects/ibm-support-mobile-app/"/>
+
+	<link rel="stylesheet" href="/kkh/assets/css/style.css">
+
+	<link rel="shortcut icon" href="/kkh/images/favicon.png"/>
+
+	<body>
+		<header class="c-header" role="banner">
+			<a class="c-header__title" href="/kkh/">Kelli Ho</a>
+			<nav class="c-header__nav" role="navigation">
+				<ul class="c-nav">
+					<li class="c-nav__item">
+						<a class="c-nav__link" href="/kkh/projects/">Projects</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<main role="main">
+			<div class="o-wrap">
+				<h1 id="ibm-support-mobile-application">IBM Support Mobile Application</h1>
+
+<h4 id="the-ibm-support-mobile-application-is-a-parallel-work-stream-to-the-web-platform-the-app-is-a-collection-of-several-support-areas-like-the-product-documentation-community-warranty-lookup-and-case-management">The IBM Support mobile application is a parallel work stream to the web platform. The app is a collection of several Support areas, like the product documentation community, warranty lookup, and case management.</h4>
+
+<h4 id="problem">Problem</h4>
+<p>The app was originally built to consolidate multiple Support tools into a central place to prevent different groups within IBM from creating one-off apps. However, this resulted in an app that was trying to accommodate too much and not serving any one objective well.</p>
+
+<h4 id="vision">Vision</h4>
+<p>With this year’s initiative to prioritize the customer support experience, we have been able to drastically scope down the app and focus in on a core user task: case management. Users who would download this app want to see which cases need their attention and respond, stay informed with cases across their team, and open a case quickly.</p>
+
+<h4 id="role-and-team">Role and team</h4>
+<p>I am a product designer leading user experience, visual, and interaction design across this project.</p>
+
+<p>I also work with my design lead, product owner, and two developers.</p>
+<hr />
+
+<h2 id="the-case-feed">The case feed</h2>
+<p>The landing view of the app is the case feed. Users also want to easily communicate with support agents so we made “chat” and “call” global navigation actions.</p>
+
+<p>Cases are organized into two groups: open cases that the logged-in users owns and open cases that people on their team own. Closed cases would show up if it had been closed within the last 30 days.</p>
+
+<h3 id="case-cards">Case cards</h3>
+<p>The cards in the case feed went through multiple iterations. The data shown on the cards was informed by what we chose to display on the cases table in the web platform. However, an ongoing challenge I kept running into was the information hierarchy. Several pieces of information seemed to have the same level of importance for a user’s ability to identify, scan, and understand each case at this view:</p>
+<ul>
+  <li>Status</li>
+  <li>Case title</li>
+  <li>Case number</li>
+  <li>Product</li>
+  <li>Severity</li>
+  <li>Last update</li>
+</ul>
+
+<p><img src="../../images/mobile-case-cards.png" alt="Case cards" /></p>
+
+<p>Ultimately, prioritization of information all came back down to what users need to know at this view: are there cases that need my attention? If so, which ones?</p>
+
+<p>The two data points that communicated this the strongest were the status and the title. A case could have one of four statuses:</p>
+<ul>
+  <li>New case opened</li>
+  <li>Awaiting your feedback</li>
+  <li>IBM is working</li>
+  <li>Resolution provided—case closed</li>
+</ul>
+
+<p>In the mobile app, the only status that was meaningful enough to display on the case feed was “awaiting your feedback”. Therefore, a design decision we made here was to only display a status on the card when the case was waiting for the user to take an action.</p>
+
+<p><img src="../../images/support-mobile-my-cases-4.gif" alt="My cases feed" /></p>
+<hr />
+
+<h2 id="viewing-an-individual-case">Viewing an individual case</h2>
+<p>When users view a case on the web platform, they are taken to the case details page. With the mobile app, we brainstormed ways to break apart the information on that page in a way that made sense in this context. Like the case cards, organization was driven by what users needed.</p>
+
+<p><img src="../../images/support-mobile-tab-screens.png" alt="Case details" /></p>
+<h4 id="history">History</h4>
+<p>Since responding to cases is one of the main tasks in the app, we made case history the landing view. Case history contains the same information a user would see on the web platform.</p>
+
+<h4 id="teams">Teams</h4>
+<p>The idea of teams came up frequently with our sponsor user sessions. Users will frequently work with teammates on the same case and need to include a teammate on that case. This is similar to carbon copies on emails. Users have also expressed wanting to know which IBM agents are involved with their case.</p>
+
+<h4 id="details">Details</h4>
+<p>Case details contains additional information about the case. It includes all of the information a user sees on the initial case card, along with secondary information like the description, date created, and list of attachments.</p>
+
+			</div>
+		</main>
+
+		<footer class="o-wrap c-footer" role="contentinfo">
+			<p>&copy; 2017 Kelli Ho</p>
+		</footer>
+	</body>
+</html>
+

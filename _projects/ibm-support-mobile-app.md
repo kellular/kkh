@@ -1,24 +1,28 @@
 ---
-layout: default
+layout: project
 title: IBM Support Mobile Application
 duration: August 2016—Current
 ---
-
+<div class="o-wrap" markdown="1">
 # IBM Support Mobile Application
-
-#### The IBM Support mobile application is a parallel work stream to the web platform. The app is a collection of several Support areas, like the product documentation community, warranty lookup, and case management.
-
-#### Problem
+### The IBM Support mobile application is a parallel work stream to the web platform. The app is a collection of several Support areas, like the product documentation community, warranty lookup, and case management.
+<hr>
+## Overview
+### Problem
 The app was originally built to consolidate multiple Support tools into a central place to prevent different groups within IBM from creating one-off apps. However, this resulted in an app that was trying to accommodate too much and not serving any one objective well.
 
-#### Vision
+### Vision
 With this year's initiative to prioritize the customer support experience, we have been able to drastically scope down the app and focus in on a core user task: case management. Users who would download this app want to see which cases need their attention and respond, stay informed with cases across their team, and open a case quickly.
 
-#### Role and team
+### Role and team
 I am a product designer leading user experience, visual, and interaction design across this project.
 
 I also work with my design lead, product owner, and two developers.
-<hr>
+</div>
+
+{% capture background-alt %}
+
+<div class="o-wrap" markdown="1">
 ## The case feed
 The landing view of the app is the case feed. Users also want to easily communicate with support agents so we made "chat" and "call" global navigation actions.
 
@@ -59,3 +63,10 @@ The idea of teams came up frequently with our sponsor user sessions. Users will 
 
 #### Details
 Case details contains additional information about the case. It includes all of the information a user sees on the initial case card, along with secondary information like the description, date created, and list of attachments.
+</div>
+
+{% endcapture %}
+
+{% include background-alt.md %}
+
+<div class="o-wrap" markdown="1">

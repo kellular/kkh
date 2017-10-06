@@ -71,6 +71,8 @@ In order to connect users to the right support agents, we tried to ensure that t
 ![Open a case](../../images/cases-open-blank.png)
 <hr>
 ### Products
+**Wireframes**
+
 We are currently exploring the products area in Support. The two objectives for users here are monitoring and managing products. Users want a snapshot into the state of their company’s products and view into the type of support access they have with IBM. Users also want to easily browse our product catalog. Sometimes this could be because they do not see their company’s product listed in their table, or because they want to explore products their company might want to use.
 
 #### Monitor

@@ -30,7 +30,7 @@ Our main persona was the data warehouse architect. This person does the initial 
 As secondary personas, the data analyst and report developer were the consumers of the data that loads into dashDB. The data analyst runs hypothesis testing and works in the product's SQL editor. The report developer builds reports and dashboards for analysis throughout their company.
 
 ### Discovering our users
-A persistent blocker for us was that we did not have direct access to people who used dashDB. Much of our connections to people who worked with other cloud data warehouses came from grassroots efforts initiated by myself and our user researcher. Both of us would literally search for people on LinkedIn and reach out for an interview, or tap into our social media networks. This strategy landed us several user interviews, which informed a better understanding of the domain. (secondary research)
+A persistent blocker for us was that we did not have direct access to people who used dashDB. Much of our connections to people who worked with other cloud data warehouses came from grassroots efforts initiated by myself and our user researcher. We would literally search for people on LinkedIn and reach out for an interview, or tap into our social media networks. This strategy landed us several user interviews, which informed a better understanding of the domain through secondary research.
 <hr>
 ## Making sense of the product and landscape
 I was brand new to the analytics and data warehousing domain. I knew next to nothing about this world. At times, ramping up to speed felt overwhelming, but I was excited and determined to figure this out.
@@ -63,7 +63,7 @@ Our UX designer and I went through the load flow in the current product. At the 
 
 <div class="o-wrap" markdown="1">
 ## Proposing a new approach
-Based on our assumptions, we worked on a new user flow and experience. We presented the following concept to our offering manager and development team.
+Based on our assumptions, we worked on a new user flow and experience. We presented the following concept to our product owner and development team.
 
 ![dashDB Load Hub and credentials](../../images/dashdb-loadhub-creds.png)
 ###### Users would land on the Load Hub, where they can start a new load and/or view their current load jobs.
@@ -110,7 +110,7 @@ Based on our assumptions, we worked on a new user flow and experience. We presen
 
 <div class="o-wrap" markdown="1">
 ## Shifting with the business needs
-
+Since a lot of our concept was informed by secondary user research, it did not line up with what our product owner and development team knew about dashDB users and their pain points. The concept showed potential for how simple and easy loading data should be, but it was not practical for what we could build in the given timeframe. The pitch showed a clear disconnect between design, product strategy, and development.   
 <hr>
 ## Reflecting
 ### We did not understand our user, their workflow, and their needs
@@ -123,12 +123,12 @@ It was difficult for us to understand our users true problems with the product. 
 Our design team did not have insight into the product strategy until much later when we learned from the product owner that the top focus was performance and security. As a result, we shifted focus to stakeholder interviews with key people across the platform in order to gain a better understanding of how we could best support the team.
 
 **What I learned**
-- No product discipline should work in a silo. Initially our design team worked separately from the wider team of offering management and engineering. This contributed to basic user flow inaccuracies and functionality that simply was not feasible.
+- No product discipline should work in a silo. Initially our design team worked separately from the wider team of product management and engineering. This contributed to basic user flow inaccuracies and functionality that simply was not feasible.
 - Scope is critical. dashDB Load is a massive section of the product. At the start of this project, we wanted to cover all load options but this proved to be too ambitious for the timeline.
 
 
 ### We designed in a vacuum
-With a fairly inexperienced design team, there was a lack in knowledge of the importance of communicating with offering management and development so that we could move forward as a team.
+With a fairly inexperienced design team, there was a lack in knowledge of the importance of communicating with product management and development so that we could move forward as a team.
 
 **What I learned**
 - Never assume you have expertise. We were the newest people to join the dashDB team. Collectively we made the egotistic mistake of pitching new design concepts under the assumption that because we were designers that meant we understood what “good user experience” meant in this product context.

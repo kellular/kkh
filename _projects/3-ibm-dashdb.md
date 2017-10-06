@@ -117,7 +117,7 @@ Since a lot of our concept was informed by secondary user research, it did not l
 It was difficult for us to understand our users true problems with the product. Despite conducting secondary research and making the best decisions we could at the time, not having the opportunity to test these designs made it challenging to validate our assumptions.
 
 **What I learned**
-- Users need to be at the core. Product decisions should be driven by data and insights drawn from user research.
+- Users need to be at the core. Product decisions should be informed by data and insights drawn from user research.
 
 ### Lack of visibility into the business strategy
 Our design team did not have insight into the product strategy until much later when we learned from the product owner that the top focus was performance and security. As a result, we shifted focus to stakeholder interviews with key people across the platform in order to gain a better understanding of how we could best support the team.

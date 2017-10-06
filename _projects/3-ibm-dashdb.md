@@ -2,7 +2,7 @@
 layout: project
 title: IBM dashDB
 duration: March 2015—July 2016
-thumbnail: index-support-web
+thumbnail: index-dashdb
 ---
 <div class="o-wrap" markdown="1">
 ###### This was the first product team I joined at IBM after finishing Designcamp, a three-month on-boarding program for new designers at the company. With this particular project, we were unable to deliver value for the user and the business in the end. I chose to share this project because it was a humbling lesson in understanding business requirements and user needs, while also aligning between disciplines across the team.
@@ -33,23 +33,23 @@ As secondary personas, the data analyst and report developer were the consumers 
 A persistent blocker for us was that we did not have direct access to people who used dashDB. Much of our connections to people who worked with other cloud data warehouses came from grassroots efforts initiated by myself and our user researcher. Both of us would literally search for people on LinkedIn and reach out for an interview, or tap into our social media networks. This strategy landed us several user interviews, which informed a better understanding of the domain. (secondary research)
 <hr>
 ## Making sense of the product and landscape
-I was brand new to the analytics and data warehousing domain space and knew next to nothing about this world. At times, ramping up to speed felt overwhelming, but I was excited and determined to figure this out.
+I was brand new to the analytics and data warehousing domain. I knew next to nothing about this world. At times, ramping up to speed felt overwhelming, but I was excited and determined to figure this out.
 
-One method that helped tremendously was mapping these concepts out and validating them with experts on our team. These diagrams helped me develop relationships with teammates who were not colocated with me. It opened the door for stronger collaboration after they saw how eagerly I wanted to understand this area of the product and how much I valued their knowledge. The diagrams below have less to do with the interface output and more to do with the product functionality, domain vocabulary, and flow of data into and out of dashDB.
+One method that helped tremendously was mapping concepts out and validating them with subject matter experts on our team. These diagrams helped me develop relationships with teammates who were not colocated with me. After they saw how eagerly I wanted to understand the product and how much I valued their knowledge, the door for stronger collaboration was opened. The diagrams below have less to do with the interface output and more to do with the product functionality, domain vocabulary, and flow of data into and out of dashDB.
 
 ![dashDB food analogy](../../images/dashdb-food-analogy.png)
-###### A grocery store analogy explained to me by an architect on the product. The grocery stores are a metaphor for the data sources a company could have. The truck transporting the groceries represents the extract, transform, and load process. The refrigerator is the data warehouse, or dashDB in our case. The characters grabbing food from the refrigerator are the analysts querying the data from the warehouse for analysis.
+###### A grocery store analogy explained to me by an architect on the product. The grocery stores are a representation of the data sources a company can have. The truck transporting the groceries represents the extract, transform, and load process. The refrigerator is the data warehouse, or dashDB in our case. The characters grabbing food from the refrigerator are analysts querying data from the warehouse for analysis.
 
 ![dashDB set-up diagram](../../images/dashdb-setup-diagram.png)
-###### This diagram depicts a basic overview of how a user sets up dashDB. After purchasing a payment plan, the load architect will use a third-party tool to connect data sources to dashDB. Then inside dashDB, the architect sets up table structures and schedules the load jobs.
+###### A basic overview of how a user sets up dashDB. After purchasing a payment plan, the load architect will use a third-party tool to connect data sources to dashDB. Then inside dashDB, the architect sets up table structures and schedules the load jobs.
 
 ![dashDB schemas](../../images/dashdb-schemas.png)
-###### Schema is a good example of terminology in dashDB that was confusing for both our users and our team. It seemed everyone had a different definition of the term. The organization and hierarchical relationship between schemas and tables was one of the more difficult concepts to understand.
+###### Schema is a good example of terminology in dashDB that was confusing for both our users and our team. The conceptual relationship between schemas and tables in dashDB was different than how they are traditionally organized in data warehousing.
 <hr>
 ## Assessing the current data load flow
 ![dashDB As Is Load flow](../../images/dashdb-as-is-load-flow.png)
 
-Our UX designer and I went through the load flow in the current product. At the time, a user could load data from five different options: desktop, cloud sources, geospatial datasets, Twitter, or an open-source data set. Since we did not have strong insights into user pain points, our UX designer and I came up with assumptions to explore and validate later:
+Our UX designer and I went through the load flow in the current product. At the time, a user could load data from five different sources: desktop, cloud, geospatial datasets, Twitter, or an open-source data set. Since we did not have strong insights into user pain points, our UX designer and I came up with assumptions to explore and validate later:
 
 1. Users had trouble understanding the five load options
 2. Users had no clear insight into the status of the load job
@@ -109,10 +109,11 @@ Based on our assumptions, we worked on a new user flow and experience. We presen
 {% include background-alt.md %}
 
 <div class="o-wrap" markdown="1">
+##
+Shifting with the business needs
 
-business decisions shifted our priorities
 <hr>
-## Reflections
+## Reflecting
 ### We did not understand our user, their workflow, and their needs
 It was difficult for us to understand our users true problems with the product. Despite conducting secondary research and making the best decisions we could at the time, not having the opportunity to test these designs made it challenging to validate our assumptions.
 

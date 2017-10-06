@@ -2,6 +2,7 @@
 layout: project
 title: IBM Support Web Platform
 duration: August 2016—Current
+thumbnail: index-support-web
 ---
 <div class="o-wrap" markdown="1">
 # IBM Support Web Platform

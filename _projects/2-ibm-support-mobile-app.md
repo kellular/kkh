@@ -2,6 +2,7 @@
 layout: project
 title: IBM Support Mobile Application
 duration: August 2016—Current
+thumbnail: index-support-mobile
 ---
 <div class="o-wrap" markdown="1">
 # IBM Support Mobile Application

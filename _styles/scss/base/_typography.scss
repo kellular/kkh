@@ -67,7 +67,7 @@ p {
     font-weight: 400;
 
     & + p {
-      margin-top: 1.5rem;
+      margin-top: 1rem;
     }
 
     & + h3 {
@@ -77,4 +77,8 @@ p {
     & + h4 {
       margin-top: 1.5rem;
     }
+}
+
+ul {
+  margin-bottom: 1.5rem;
 }

@@ -12,7 +12,7 @@ thumbnail: index-support-web
 ### Problem
 The customer support experience at IBM today is disjointed and inconsistent across products and support tools. Part of the challenge is that IBM has not been productively (using) data about its customers, and therefore does not surface information relevant, meaningful, and tailored to the people working with IBM products. This has created a confusing and frustrating digital ecosystem that customers struggle to navigate and find what they need.
 
-**Why doesn't IBM know who I am and what products I use?**
+The underlying question for so many of our users is: why doesn't IBM know who I am and what products I use?
 
 ### Vision
 This year, IBM set forth to prioritize and transform the current customer support journey across its business units and products. Our team is working to consolidate the various support tools, facilitate stronger relationships between customers and support agents, and provide transparency into cases and product updates.
@@ -56,7 +56,7 @@ First and foremost, users want to know the case status and if they or the suppor
 
 ![Cases table](../../images/cases-table.gif)
 
-#### Viewing an individual case
+#### View an individual case
 This view is a closer look into the case, showing details like the description, file attachments, and teammates. Previously there had not been much visibility into cases and it was especially difficult to track what had happened in the case.
 
 A new feature we are introducing is the Case History. Case History is a timeline and record of all case events, such as phone calls with agents, as well as an area for users to leave comments and upload attachments.

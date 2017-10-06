@@ -108,8 +108,7 @@ Northstar was created with marketing pages in mind. This meant that some of the 
 *A snippet of the Sketch UI kit I created for our design team to share and re-use components, styles, and patterns*
 <br>
 <br>
+<br>
 ![Support CSS Github wiki](../../images/support-css-wiki.gif)
 *Github wiki page where I have been storing the components from the Sketch UI kit for the development team*
-<hr>
-## What's next?
 </div>

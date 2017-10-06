@@ -5,7 +5,7 @@ duration: March 2015—July 2016
 thumbnail: index-dashdb
 ---
 <div class="o-wrap" markdown="1">
-###### This was the first product team I joined at IBM after finishing Designcamp, a three-month on-boarding program for new designers at the company. With this particular project, we were unable to deliver value for the user and the business in the end. I chose to share this project because it was a humbling lesson in understanding business requirements and user needs, while also aligning between disciplines across the team.
+###### This was the first product team I joined at IBM after finishing Designcamp, a three-month on-boarding program for new designers in the company. With this particular project, we were unable to deliver value for the user and the business in the end. I chose to share this project because it was a humbling lesson in understanding business requirements and user needs, while also aligning between disciplines across the team.
 ~
 # IBM dashDB
 ### dashDB is a cloud data warehouse where companies can bring together all of their data and house it within one location so that they can run queries, extract information, and perform analytics in order to drive business insights.
@@ -109,8 +109,7 @@ Based on our assumptions, we worked on a new user flow and experience. We presen
 {% include background-alt.md %}
 
 <div class="o-wrap" markdown="1">
-##
-Shifting with the business needs
+## Shifting with the business needs
 
 <hr>
 ## Reflecting

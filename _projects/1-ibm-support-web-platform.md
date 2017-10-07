@@ -10,7 +10,7 @@ thumbnail: index-support-web
 <hr>
 ## Overview
 ### Problem
-The customer support experience at IBM today is disjointed and inconsistent across products and support tools. Part of the challenge is that IBM has not been productively (using) data about its customers, and therefore does not surface information relevant, meaningful, and tailored to the people working with IBM products. This has created a confusing and frustrating digital ecosystem that customers struggle to navigate and find what they need.
+The customer support experience at IBM today is disjointed and inconsistent across products and support tools. Part of the challenge is that IBM has not been productively working with data about its customers, and therefore does not surface information relevant, meaningful, and tailored to the people working with IBM products. This has created a confusing and frustrating digital ecosystem that customers struggle to navigate and find what they need.
 
 The underlying question for so many of our users is: why doesn't IBM know who I am and what products I use?
 
@@ -98,7 +98,7 @@ We are currently exploring the products area in Support. The two objectives for 
 <div class="o-wrap" markdown="1">
 ## Platforms we work with
 ### Salesforce
-IBM partnered with Salesforce to provide the back-end and front-end architecture. This partnership enables us to create a cohesive experience and interaction between customers and agents on a single platform.
+IBM partnered with Salesforce to provide the back-end and front-end architecture for Support. This partnership enables us to create a cohesive experience and interaction between customers and agents on a single platform.
 
 ### IBM Northstar
 Northstar is the internal design system for all web pages launched IBM.com. IBM.com is the home for IBM Support, which meant that prior to the Salesforce partnership, we were required to use the Northstar patterns and components.
